@@ -8,7 +8,7 @@ function Home() {
     const [movies, setMovies] = useState([])
 
     function fetchData() {
-        axios.get(`https://diala-movie.herokuapp.com/trending`).then(response => {
+        axios.get(`${process.env.REACT_APP_SERVER}/trending`).then(response => {
             setMovies(response.data);
         })
     }
