@@ -12,7 +12,7 @@ function App() {
 
   const fetchData = async () => {
     try {
-      const response = await fetch(`${process.env.REACT_APP_SERVER}/favorite`);
+      const response = await fetch(`${process.env.REACT_APP_SERVER}/getMovies`);
 
       const data = await response.json();
       setFavList(data);
