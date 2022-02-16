@@ -1,0 +1,65 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&family=Raleway:wght@100;200&display=swap');
+
+
+*, *::before, *::after {   
+    box-sizing: border-box;
+    margin: 0;
+    padding: 5px; 
+}
+
+body {
+    font-family:'Raleway', sans-serif;   
+    background-color: #ccd0d141;
+}
+
+.wrapper {
+    background-color: #7fa99b86;
+    display: flex;
+    text-align : center;
+    padding: 50px;
+    margin: 1rem;
+    display:grid;
+    gap: 1rem;
+    width: 30%;
+    box-shadow: 0 8px 8px #394a5160;
+    transition: 0.1s;
+}
+.wrapper:hover{
+    box-shadow: 5px 5px 20px 5px #2c241860;
+}
+
+.cardTitle {
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+
+.cardButton{
+    border: none;
+    background-color: #394a5160;
+
+}
+
+.cardButton:hover{
+    background-color: #fdc57b;
+}
+
+.modalOverview{
+  font-weight: bolder;
+  text-align: center;
+}
+
+.first-color { 
+	background: #394a51; 
+}
+	
+.second-color { 
+	background: #7fa99b; 
+}
+
+.third-color { 
+	background: #fbf2d5; 
+}
+
+.fourth-color { 
+	background: #fdc57b; 
+}
